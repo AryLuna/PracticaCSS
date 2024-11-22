@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6b6a6a; /* Color de fondo del nav */
+    color: #fff; /* Color del texto */
+}
+
+nav div {
+    font-size: 24px; /* Tamaño del texto del encabezado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+nav ul {
+    list-style: none; /* Eliminar viñetas */
+    display: flex;
+    gap: 20px; /* Espacio entre elementos */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    text-decoration: none;
+    color: #ddd; /* Color del texto al pasar el mouse */
+}
+
+
+.obra {
+    display: flex; /* Usa flexbox para el diseño */
+    align-items: center; /* Alinea verticalmente al centro */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Espaciado externo */
+
+}
+
+.obra img {
+    max-width: 40%; /* Tamaño máximo de la imagen */
+    margin-right: 30px; /* Espacio a la derecha de la imagen */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.obra div {
+    flex: 1; /* El texto toma el resto del espacio */
+}
+
+
+.obra p {
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    margin: 0; /* Eliminar margenes */
+}
+.obra, .obraderecha {
+    border: 2px solid #ccc; /* Borde alrededor del box */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: #f9f9f9; /* Color de fondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex; /* Usa flexbox para el diseño */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+.obraderecha img {
+    order: 2; /* Imagen segunda en la clase .obraderecha */
+    max-width: 40%; /* Tamaño máximo de la imagen */
+    margin-left: 20px; /* Espacio a la izquierda de la imagen */
+    border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.obra p, .obraderecha p {
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    margin: 0; /* Eliminar margenes */
+}
+
+h2 {
+     color: #333; margin-bottom: 20px; /* Espacio debajo del título */ 
+     margin-right: 20px; /* Espacio a la derecha del título */ 
+     text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
