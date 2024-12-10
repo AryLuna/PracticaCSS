@@ -69,18 +69,24 @@ header ul li:hover {
 }
 .header {
     height: 60vh !important;
-    background-image: url(https://elements-resized.envatousercontent.com/envato-shoebox/871b/bc6b-189f-46cf-9ef7-a7474746680d/DSCF7155.jpg?w=500&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=e32335da100a123f66da1e37bd2530c87e8c7122deaebe1882990c5759dbe0e6);
+    background-image: url(https://mott.pe/noticias/wp-content/uploads/2019/09/Principales-consejos-de-fotograf%C3%ADa-para-dise%C3%B1adores-gr%C3%A1ficos-1.png);
     background-size: cover;
+}
+.header p {
+    color: white;
 }
 .title {
     margin-bottom: 40px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #f46c03;
 }
 p{
     margin-bottom: 40px;
     font-size: 16px;
+    color: #f46c03;
+    padding: 0 100px;
 }
 .btn {
     display: inline-block;
@@ -100,4 +106,71 @@ p{
 }
 .btn-home a {
     margin: 0 10px;
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 30px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #f46c03;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.3 5rem rgba(0, 0, 0, alph.5);
+    margin: 2rem;
+}
+.box-container .box h3 {
+    font-size: 20px;
+    color: white;
+}
+.box-container .box p {
+    color: white;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.about {
+    background: #f46c03;
+}
+.about .title {
+    color: white;
+}
+.about p {
+    color: white;
+}
+
+.price {
+    background: url(https://i.etsystatic.com/21920294/r/il/c819bc/5730781687/il_fullxfull.5730781687_30fm.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contact {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+@media (max-width:768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
 }
