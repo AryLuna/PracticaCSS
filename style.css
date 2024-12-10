@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -39,73 +50,54 @@ header ul li a {
 header ul li:hover {
     color: #ddd; /* Color del texto al pasar el mouse */
 }
-.link-custom { 
-    text-decoration: none; /* Quitar subrayado */ 
-    color: inherit; /* Mantener el color del texto */ 
-    display: flex; align-items: center; 
-} 
-.link-custom i { 
-    margin-right: 10px; /* Espacio entre el ícono y el texto */ 
-} 
-.link-custom:hover { 
-    color: #ddd; /* Color al pasar el mouse */
+.logo{
+    margin-left: 30px;
 }
-
-.obra {
-    display: flex; /* Usa flexbox para el diseño */
-    align-items: center; /* Alinea verticalmente al centro */
-    padding: 20px; /* Espaciado interno */
-    margin: 20px; /* Espaciado externo */
-
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
 }
-
-.obra img {
-    max-width: 40%; /* Tamaño máximo de la imagen */
-    margin-right: 30px; /* Espacio a la derecha de la imagen */
-    border-radius: 10px; /* Esquinas redondeadas */
+.logo a:hover{
+    color: black;
 }
-
-.obra div {
-    flex: 1; /* El texto toma el resto del espacio */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-.obra p {
-    color: #555; /* Color del texto */
-    line-height: 1.6; /* Altura de línea para mejor legibilidad */
-    margin: 0; /* Eliminar margenes */
+.header {
+    height: 60vh !important;
+    background-image: url(https://elements-resized.envatousercontent.com/envato-shoebox/871b/bc6b-189f-46cf-9ef7-a7474746680d/DSCF7155.jpg?w=500&cf_fit=scale-down&mark-alpha=18&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark4.png&q=85&format=auto&s=e32335da100a123f66da1e37bd2530c87e8c7122deaebe1882990c5759dbe0e6);
+    background-size: cover;
 }
-.obra, .obraderecha {
-    border: 2px solid #ccc; /* Borde alrededor del box */
-    padding: 20px; /* Espaciado interno */
-    margin: 20px 0; /* Espaciado externo */
-    border-radius: 10px; /* Esquinas redondeadas */
-    background-color: #f9f9f9; /* Color de fondo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    display: flex; /* Usa flexbox para el diseño */
-    align-items: center; /* Alinea verticalmente al centro */
-}
-
-.obraderecha img {
-    order: 2; /* Imagen segunda en la clase .obraderecha */
-    max-width: 40%; /* Tamaño máximo de la imagen */
-    margin-left: 20px; /* Espacio a la izquierda de la imagen */
-    border-radius: 10px; /* Esquinas redondeadas */
-}
-
-.obra p, .obraderecha p {
-    color: #555; /* Color del texto */
-    line-height: 1.6; /* Altura de línea para mejor legibilidad */
-    margin: 0; /* Eliminar margenes */
-}
-
-h2 {
-    color: #333; margin-bottom: 20px; /* Espacio debajo del título */ 
-    margin-right: 20px; /* Espacio a la derecha del título */ 
-    text-align: center;
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 p{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
     font-size: 16px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #f46c03;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    background: #f46c03;
+}
+.btn:hover {
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
 }
