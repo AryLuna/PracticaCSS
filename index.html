@@ -11,16 +11,20 @@
     <header class="d-flex flex-wrap justify-content py-3 mb-4 border-bottom">
         <div class="logo">
             <a href="#"><i class="bi bi-camera"></i>K'awiil</a>
-        </div>     
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Sesiones</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Invitaciones</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+        </div>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="images/menu.webp" class="menu-icono" alt="menu">
+        </label>  
+        <ul class="navbar nav-pills">
+            <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#sesiones" class="nav-link">Sesiones</a></li>
+            <li class="nav-item"><a href="#invitaciones" class="nav-link">Invitaciones</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
     </header>
     <main class="content header">
-        <h2 class="title">K'awiil es...</h2>
+        <h2 id="inicio" class="title">K'awiil es...</h2>
         <p>Un espacio que captura más que imágenes; captura emociones, historias y momentos únicos que perduran en el tiempo.
             Con un enfoque en la calidad, la creatividad y la innovación, nos esforzamos por entregar fotografías que no solo 
             reflejan la estética y el profesionalismo, sino también el amor y la dedicación que ponemos en cada proyecto. 
@@ -31,7 +35,7 @@
             <a href="#" class="btn"> Invitaciones </a>
         </div>
     </main>
-    <section class="content sau">
+    <section id="sesiones" class="content sau">
         <h2 class="title">Sesiones Fotográficas</h2>
         <div class="box-container">
             <div class="box">
@@ -46,7 +50,7 @@
             </div>
             <div class="box">
                 <h3>Para Empoderarte</h3>
-                <p>Sesiones diseñadas para celebrar tu belleza y fomentar el amor propio. En un ambiente cómodo y seguro, te ayudamos a expresar tu sensualidad y confianza, capturando imágenes que reflejan tu fuerza y empoderamiento personal.</p>
+                <p>Sesiones diseñadas para celebrar tu belleza y fomentar el amor propio. En un ambiente cómodo y seguro, te ayudamos a expresar tu sensualidad y confianza, capturando imágenes que reflejan tu fuerza y empoderamiento.</p>
             </div>
         </div>
     </section>
@@ -54,13 +58,13 @@
         <h2 class="title">Nosotros</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam blanditiis aliquid, laboriosam molestiae accusamus, ipsam quis iure non numquam nemo quod minima porro dignissimos quibusdam quisquam. Dicta aperiam quisquam tempora!</p>
     </section>
-    <section class="content price">
+    <section id="invitaciones" class="content price">
         <article class="contain">
             <h2>Invitaciones</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio libero impedit atque corrupti dolore voluptatem itaque, a, quam, provident necessitatibus. Ducimus quam itaque delectus dolorum id doloremque cupiditate porro.</p>
         </article>
     </section>
-    <section class="content contact">
+    <section id="contacto" class="content contact">
         <h2 class="title">Contáctanos</h2>
         <p>Conoce nuestra variedad de productos y servicios</p>
         <a href="https://www.facebook.com/KawiilFotografia" class="btn">Facebook</a>
